@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh api:*)",
+      "Bash(1:*)",
+      "Bash(cp -r docs/* .)",
+      "Bash(cp docs/.nojekyll .)",
+      "Bash(cp -rf docs/_nuxt/* _nuxt/)",
+      "Bash(cp -rf docs/favicon .)",
+      "Bash(cp -rf docs/fonts .)",
+      "Bash(cp -rf docs/video .)",
+      "Bash(cp -rf docs/contact .)"
+    ]
+  }
+}
